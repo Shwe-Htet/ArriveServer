@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    margin-top: 300px;
+}
+
+h1,
+h2 {
+    font: sans-serif;
+    font-weight: 1000;
+    color: transparent;
+    text-align: center;
+    background-position: center;
+}
+
+h1 {
+    font-size: 50px;
+    background: url(https://media.giphy.com/media/xTiTniuHdUjpOlNo1q/giphy.gif);
+    -webkit-background-clip: text;
+}
+
+h2 {
+    font-size: 40px;
+    background: url(https://media.giphy.com/media/g04lCCTUHSw03W7pqD/giphy.gif);
+    -webkit-background-clip: text;
+}
+
+.preloader {
+    position: fixed;
+    background: #000 url() no-repeat center center;
+    width: 100vh;
+    height: ;
+    text-align: center;
+    opacity: 100;
+    color: #fff;
+
+}
+.preloader h3 {
+
+}
